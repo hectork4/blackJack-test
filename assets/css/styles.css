@@ -1,0 +1,45 @@
+html, body {
+    margin: 0px;
+    background-color: #2f4f30;
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+.result {
+    width: 35%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result h1 {
+    font-family: cursive;
+    color: powderblue;
+    font-size: 80px;
+}
+
+.title {
+    text-align: center;
+    background-color: black;
+    color: white
+}
+
+.card {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+.scores {
+    width: 65%
+}
+
+#computer, #player {
+    height: 240px;
+    display: flex;
+}
